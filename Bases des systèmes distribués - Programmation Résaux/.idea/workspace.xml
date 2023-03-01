@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc566d30-868c-4daa-82f8-36a03ddc1f3e" name="Changes" comment="" />
+    <list default="true" id="fc566d30-868c-4daa-82f8-36a03ddc1f3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/enset/blocking/ClientJava.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +25,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2LkVSFfESW8eE7OtodwzBsK3FYE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +49,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "profiler.jvm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,6 +79,9 @@
       <updated>1676415087308</updated>
       <workItem from="1676415096822" duration="2232000" />
       <workItem from="1676810130735" duration="10683000" />
+      <workItem from="1677627796438" duration="107000" />
+      <workItem from="1677627927965" duration="110000" />
+      <workItem from="1677628055947" duration="4845000" />
     </task>
     <servers />
   </component>

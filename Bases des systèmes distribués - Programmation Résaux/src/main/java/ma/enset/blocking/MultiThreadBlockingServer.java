@@ -48,6 +48,13 @@ public class MultiThreadBlockingServer extends Thread{
                     System.out.println("New request => IP ="+ip+" Request ="+request);
                     String response="Size ="+request.length();
                     pw.println(response);
+                    //on lance un thread dans lequel on attendre la réponse
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+
+                        }
+                    }).start();
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);

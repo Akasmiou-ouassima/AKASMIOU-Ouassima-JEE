@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Bases des systèmes distribués - Programmation Résaux" />
         <module name="enset-sd" />
       </profile>
     </annotationProcessing>
