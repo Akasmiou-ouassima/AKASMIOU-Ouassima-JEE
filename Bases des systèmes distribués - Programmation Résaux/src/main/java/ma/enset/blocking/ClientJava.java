@@ -1,6 +1,7 @@
 package ma.enset.blocking;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
@@ -22,6 +23,7 @@ import java.util.Observable;
 
 
 public class ClientJava extends Application {
+    PrintWriter pw;
     public static void main(String[] args) {
         launch(args); // il fait appel à la méethode start
     }
@@ -48,6 +50,18 @@ public class ClientJava extends Application {
         hBox2.setPadding(new Insets(10));
         hBox2.getChildren().add(listView);
         borderPane.setCenter(hBox2);
+
+        Label labelMessage = new Label("Message:");
+        TextField textFieldMessage = new TextField();
+        textFieldMessage.setPrefSize(300,30);
+        Button buttonEnvoyer = new Button("Envoyer");
+
+        HBox hBox3 = new HBox();
+        hBox3.setPadding(new Insets(10));
+        hBox3.getChildren().addAll(labelMessage, textFieldMessage, buttonEnvoyer);
+        borderPane.setBottom(hBox3);
+
+
         Scene scene = new Scene(borderPane, 800, 600);
         primaryStage.setScene(scene);
         primaryStage.show();
@@ -61,22 +75,29 @@ public class ClientJava extends Application {
                 InputStream inputStream = socket.getInputStream();
                 InputStreamReader isr = new InputStreamReader(inputStream);
                 BufferedReader bufferedReader = new BufferedReader(isr);
-                PrintWriter pw = new PrintWriter(socket.getOutputStream(), true);
+                pw = new PrintWriter(socket.getOutputStream(), true);
                 new Thread(() -> {
                     try {
                         while (true) {
                             String response = bufferedReader.readLine();
-                            listModel.add(response);
+                            Platform.runLater(()->{
+                                listModel.add(response);
+                            });
+
                         }
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
 
 
-                }).start();  //quand il ya une interface contient une seule méethode c est pas la peine de le redéfinir, on utilise l expression lamda
+                }).start();  //quand il ya une interface contient une seule méthode c est pas la peine de le redéfinir, on utilise l expression lamda
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        });
+        buttonEnvoyer.setOnAction((evt)->{
+            String message=textFieldMessage.getText();
+            pw.println(message);
         });
 
     }
