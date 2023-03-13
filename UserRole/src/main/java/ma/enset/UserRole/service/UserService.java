@@ -9,5 +9,5 @@ public interface UserService {
     User findUserByUserName(String userName);
     Role findRoleByRoleName(String roleName);
     void addRoleToUser(String username,String rolename);
-
+    User authenticate(String userNme,String password);
 }
