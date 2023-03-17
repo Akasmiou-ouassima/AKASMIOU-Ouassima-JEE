@@ -60,7 +60,7 @@ public class HospitalApplication {
 	  };*/
 	CommandLineRunner start(IHospitalService hospitalService, PatientRepository patientRepository,RendezVousRepository rendezVousRepository,MedecinRepository medecinRepository){
 		return args -> {
-			Stream.of("Mohamed","Hassan","Najat").forEach(name ->{
+			Stream.of("Mohamed","Hassan","Najat","Ouassima").forEach(name ->{
 				Patient patient=new  Patient();
 				patient.setNom(name);
 				patient.setDateNaissance(new Date());
