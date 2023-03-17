@@ -13,7 +13,7 @@ public class ClientJava {
 
         public static void main(String[] args) throws IOException {
             SocketChannel socketChannel = SocketChannel.open();
-            socketChannel.connect(new InetSocketAddress("localhost", 1234));
+            socketChannel.connect(new InetSocketAddress("localhost", 4444));
             ByteBuffer buffer = ByteBuffer.allocate(1024);
             buffer.put(REQUEST.getBytes(charset));
             buffer.flip();
