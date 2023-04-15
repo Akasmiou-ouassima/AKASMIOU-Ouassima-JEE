@@ -1,5 +1,5 @@
 
-package mypackage;
+package proxy;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
@@ -9,7 +9,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour getCompte complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schï¿½ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>{@code
  * <complexType name="getCompte">
@@ -34,7 +34,7 @@ public class GetCompte {
     protected int code;
 
     /**
-     * Obtient la valeur de la propriété code.
+     * Obtient la valeur de la propriï¿½tï¿½ code.
      * 
      */
     public int getCode() {
@@ -42,7 +42,7 @@ public class GetCompte {
     }
 
     /**
-     * Définit la valeur de la propriété code.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ code.
      * 
      */
     public void setCode(int value) {

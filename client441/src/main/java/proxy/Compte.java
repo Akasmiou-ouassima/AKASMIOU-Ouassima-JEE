@@ -1,5 +1,5 @@
 
-package mypackage;
+package proxy;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 import jakarta.xml.bind.annotation.XmlAccessType;
@@ -11,7 +11,7 @@ import jakarta.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour compte complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schï¿½ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>{@code
  * <complexType name="compte">
@@ -43,7 +43,7 @@ public class Compte {
     protected double solde;
 
     /**
-     * Obtient la valeur de la propriété code.
+     * Obtient la valeur de la propriï¿½tï¿½ code.
      * 
      */
     public int getCode() {
@@ -51,7 +51,7 @@ public class Compte {
     }
 
     /**
-     * Définit la valeur de la propriété code.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ code.
      * 
      */
     public void setCode(int value) {
@@ -59,7 +59,7 @@ public class Compte {
     }
 
     /**
-     * Obtient la valeur de la propriété dateCreation.
+     * Obtient la valeur de la propriï¿½tï¿½ dateCreation.
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class Compte {
     }
 
     /**
-     * Définit la valeur de la propriété dateCreation.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ dateCreation.
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class Compte {
     }
 
     /**
-     * Obtient la valeur de la propriété solde.
+     * Obtient la valeur de la propriï¿½tï¿½ solde.
      * 
      */
     public double getSolde() {
@@ -91,7 +91,7 @@ public class Compte {
     }
 
     /**
-     * Définit la valeur de la propriété solde.
+     * Dï¿½finit la valeur de la propriï¿½tï¿½ solde.
      * 
      */
     public void setSolde(double value) {

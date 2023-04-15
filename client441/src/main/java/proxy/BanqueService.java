@@ -1,5 +1,5 @@
 
-package mypackage;
+package proxy;
 
 import java.util.List;
 import jakarta.jws.WebMethod;
