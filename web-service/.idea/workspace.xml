@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0dad8b9-850d-4b43-a08a-f0760ccf00e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/componants/ClientTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/componants/CommandeTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/componants/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/componants/NavigationAnimation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/componants/ProduitItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/entity/Client.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/entity/Commande.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/entity/Produit.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/pages/Clients.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/pages/Commandes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/pages/ErrorPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/pages/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/pages/Produits.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-front-main/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc8_21_7_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__com_zaxxer_HikariCP_5_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_jakarta_2_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_jakarta_2_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_jakarta_2_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__net_datafaker_datafaker_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__net_minidev_json_smart_2_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_assertj_assertj_core_3_23_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_eclipse_angus_angus_activation_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_glassfish_jaxb_txw2_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_1_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_mockito_mockito_core_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_common_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_api_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_aop_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_beans_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_context_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_core_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_expression_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_jdbc_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_orm_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_test_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_tx_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_web_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_webjars_swagger_ui_4_18_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_52.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/oracle-pres-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/OraclePresApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/controller/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/controller/CommandeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/controller/ProduitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/ClientRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/ClientResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/CommandeRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/CommandeResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/LigneDeCommandeRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/LigneDeCommandeResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/ProduitRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/dto/ProduitResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/helper/DatabaseSeeder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/mapper/ClientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/mapper/CommandeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/mapper/LigneDeCommandeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/mapper/ProduitMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/model/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/model/Commande.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/model/Etat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/model/LigneCommande.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/model/Produit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/model/Ville.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/repository/ClientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/repository/CommandeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/repository/LigneCommandeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/repository/ProduitRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/service/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/service/ClientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/service/CommandeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/service/CommandeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/service/ProduitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/java/ma/glsid/oraclepres/service/ProduitServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle-pres-main/src/test/java/ma/glsid/oraclepres/OraclePresApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws41/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OEXXFQNK7xFocVxYKXdzCfK7n5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ouasi/Downloads/web-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0dad8b9-850d-4b43-a08a-f0760ccf00e6" name="Changes" comment="" />
+      <created>1681126757297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681126757297</updated>
+      <workItem from="1681126757838" duration="2651000" />
+      <workItem from="1681515622720" duration="6108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
