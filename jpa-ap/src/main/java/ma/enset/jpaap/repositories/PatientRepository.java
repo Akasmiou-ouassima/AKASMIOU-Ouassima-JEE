@@ -16,7 +16,7 @@ public interface PatientRepository extends JpaRepository<Patient,Long> {
  List<Patient> findByMaladeAndScoreLessThan(boolean m,int score);
  List<Patient> findByMaladeIsTrueAndScoreLessThan(int score);
  List<Patient> findByDateNaissanceBetweenAndMaladeIsTrueOrNomLike(Date d1, Date d2,String mc);
- @Query("Select p from Patient p where p.dateNaissance between :x and :y or p.nom like  :z")
+ @Query("Select p from Patient p where p.dateNaissance between :x and :y or p.nom like :z")
  List<Patient> chercherPatients(@Param("x") Date d1, @Param("y") Date d2, @Param("z") String nom);
  @Query("Select p from Patient p where p.nom like :x and p.score < :y")
  List<Patient> chercherPatients(@Param("x") String nom, @Param("y") int ScoreMin);

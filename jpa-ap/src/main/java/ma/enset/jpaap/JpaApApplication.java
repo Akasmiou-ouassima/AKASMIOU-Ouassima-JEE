@@ -18,7 +18,7 @@ class JpaApApplication implements CommandLineRunner {
 		SpringApplication.run(JpaApApplication.class, args);
 	}
 
-	@Autowired
+	@Autowired //injection de dépendance, chercher une implémentation de cet interface
 	private PatientRepository patientRepository;
 	@Override
 	public void run(String... args) throws Exception {
@@ -26,16 +26,15 @@ class JpaApApplication implements CommandLineRunner {
 		//patientRepository.save(new Patient(null,"Mohamed",new Date(),false,100));
 		//patientRepository.save(new Patient(null,"Imane",new Date(),false,210));
 		for (int i=0;i<100;i++){
-			patientRepository.save(new Patient(null,"hassan",new Date(),Math.random()>0.5?true:false,(int)(Math.random())*100));
+			patientRepository.save(new Patient(null,"hassan",new Date(),Math.random()>0.5?true:false,(int)(Math.random()*100)));
 		}
 		Page<Patient> patients=patientRepository.findAll(PageRequest.of(0,5)); //affiche 5 patients de premier page
-
 		System.out.println("Total pages :"+patients.getTotalPages());// retourne le nombre total de pages
 		System.out.println("Total Elements :"+patients.getTotalElements());//le nombre total des elements
 		System.out.println("Num Page :"+patients.getNumber());//le numéro de la page
 		List<Patient> content=patients.getContent();//liste de patients
 		//List<Patient> byMalade= patientRepository.findByMalade(true);
-		Page<Patient> byMalade= patientRepository.findByMalade(true,PageRequest.of(0,4));
+		Page<Patient> byMalade=patientRepository.findByMalade(true,PageRequest.of(0,4)); //PageRequest une classe qui implémente Pageable
 		List<Patient> patientList=patientRepository.chercherPatients("%h%",40);
 		patients.forEach(p->{
 		//content.forEach(p->{

@@ -11,6 +11,7 @@ import java.util.Date;
 public class Patient {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    //@Column(name="NOM") pour changer le nom
     @Column(length = 50)
     private String nom;
     @Temporal(TemporalType.DATE)
