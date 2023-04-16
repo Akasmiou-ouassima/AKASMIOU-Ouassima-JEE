@@ -5,18 +5,18 @@
 >
 <head>
     <meta charset="UTF-8">
-    <title>Patients Patients</title>
+    <title>Patients</title>
 </head>
 <body>
   <div layout:fragment="content">
     <div class="p-3">
       <div class="card">
-        <div class="card-header">Liste des patients</div>
+        <div class="card-header" style="color: deepskyblue;font-family: Bahnschrift;font-size: 30px;mso-font-info: monospace;font-weight: bolder;">Liste des patients</div>
         <div class="card-body">
           <form method="get" th:href="@{/user/index}">
             <ul class="nav nav-pills">
               <li>
-                <label class="form-label">Keyword:</label>
+                <label class="form-label" style="font-weight: bolder;color: black;">Keyword : &nbsp;</label>
               </li>
               <li>
                 <input type="text" class="form-control" name="keyword">
@@ -30,7 +30,7 @@
           </form>
           <table class="table">
             <thead>
-            <tr>
+            <tr style="color: #00a6ff;font-family: Bahnschrift;font-weight: bolder;font-size: large;">
               <th>ID</th><th>Nom</th><th>Date</th><th>Score</th><th>Malade</th>
             </tr>
             </thead>
@@ -48,7 +48,7 @@
                 </a>
               </td>
               <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
-                <a  class="btn btn-danger"
+                <a  class="btn btn-primary"
                    th:href="@{/admin/editPatient(id=${p.id})}">
                   <i class="bi bi-pencil"></i>
                 </a>

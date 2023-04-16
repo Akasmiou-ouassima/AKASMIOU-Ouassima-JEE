@@ -6,13 +6,17 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlTransient;
 
 import java.util.Date;
-@XmlRootElement(name = "compte")
+//JaxB c'est une API c'est une librairie qui permet de faire ce qu'on appelle le mapping objet xml
+
+@XmlRootElement(name = "compte")  // un objet compte, quand je le convertis en XML il va me donner un élément XML qui s'appelle compte
 @XmlAccessorType(XmlAccessType.FIELD)
+// vous dites que les annotations JaxB je voudrais les mettre sur les champs et non pas sur les getters parce que par
+// défaut c'est des annotations qu'il faut mettre sur les setters et getters
 public class Compte {
     private int code;
 
     private double solde;
-    @XmlTransient
+    @XmlTransient //c'est une annotation de JaxB
     private Date DateCreation;
 
     public Compte() {

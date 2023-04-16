@@ -5,10 +5,24 @@
 >
 <head>
     <meta charset="UTF-8">
-    <title>Patients Patients</title>
+    <title>Patients</title>
+  <style>
+    .form-label{
+      color: #00a6ff;
+      font-family: Bahnschrift;
+      font-weight: bolder;
+      font-size: large
+    }
+    .form-check-label{
+      color: #00a6ff;
+      font-family: Bahnschrift;
+      font-weight: bolder;
+      font-size: large
+    }
+  </style>
 </head>
 <body>
-  <div layout:fragment="content">
+  <div layout:fragment="content" class="container justify-content-center">
     <div class="p-3">
       <form method="post" th:action="@{savePatient}">
         <div class="mb-3 mt-3">
@@ -20,12 +34,13 @@
           <label for="dateNaissance" class="form-label">Date Naissance:</label>
           <input type="date" class="form-control" id="dateNaissance" placeholder="Date Naissance"
                  name="dateNaissance" th:value="${patient.dateNaissance}">
+          <span class="text-danger" th:errors="${patient.dateNaissance}" th:value="${patient.dateNaissance}"></span>
         </div>
         <div class="mb-3 mt-3">
           <label for="score" class="form-label">Score:</label>
           <input type="text" class="form-control" id="score" placeholder="Score"
                  name="score" th:value="${patient.score}">
-          <span class="text-danger" th:errors="${patient.score}" th:value="${patient.malade}"></span>
+          <span class="text-danger" th:errors="${patient.score}" th:value="${patient.score}"></span>
         </div>
         <div class="form-check mb-3">
           <label class="form-check-label">

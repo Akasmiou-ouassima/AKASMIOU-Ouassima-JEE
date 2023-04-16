@@ -15,58 +15,68 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+
 import java.util.List;
 
 @Controller
 public class PatientController {
-    @Autowired
+    @Autowired //n'est pas recommandé!, utiliser constructeur avec parametres
     private PatientRepository patientRepository;
-    @GetMapping(path = "/index")
-    public String patients(Model model, @RequestParam(name="page",defaultValue = "0") int page,
-                           @RequestParam(name="size",defaultValue = "5") int size,
-                           @RequestParam(name="Keyword",defaultValue = "") String Keyword){
-       // List<Patient> patients=patientRepository.findAll();
-      // Page<Patient> pagePatients=patientRepository.findAll(PageRequest.of(page,size));
-        Page<Patient> pagePatients=patientRepository.findByNomContains(Keyword,PageRequest.of(page,size));
 
-        model.addAttribute("listPatients",pagePatients.getContent());
-       model.addAttribute("pages",new int[pagePatients.getTotalPages()]);
-       model.addAttribute("currentPage",page);
-       model.addAttribute("Keyword",Keyword);
-       return "patients";
+    @GetMapping(path = "/index")
+    public String patients(Model model, @RequestParam(name = "page", defaultValue = "0") int page,
+                           @RequestParam(name = "size", defaultValue = "5") int size,
+                           @RequestParam(name = "Keyword", defaultValue = "") String Keyword) {
+        //@RequestParam parametre d'url
+        // List<Patient> patients=patientRepository.findAll();
+        // Page<Patient> pagePatients=patientRepository.findAll(PageRequest.of(page,size));
+        Page<Patient> pagePatients = patientRepository.findByNomContains(Keyword, PageRequest.of(page, size));
+
+        model.addAttribute("listPatients", pagePatients.getContent());
+        model.addAttribute("pages", new int[pagePatients.getTotalPages()]);
+        model.addAttribute("currentPage", page);
+        model.addAttribute("Keyword", Keyword);
+        return "patients";
     }
+
     @GetMapping("/delete")
-    public  String delete(Long id,String keyword,int page){
+    public String delete(Long id, String Keyword, int page) {
         patientRepository.deleteById(id);
-        return "redirect:/index?page="+page+"&Keyword="+keyword;
+        return "redirect:/index?page=" + page + "&Keyword=" + Keyword;
     }
+
     @GetMapping("/")
-    public  String home(){
-            return "redirect:/index";
+    public String home() {
+        return "redirect:/index";
     }
+
     @GetMapping("/patients")
-    @ResponseBody
-    public List<Patient> listPatients(){
-           return patientRepository.findAll();
+    @ResponseBody //c-à-d le resultat va serialisé dans le corps de la réponse
+    public List<Patient> listPatients() {
+        return patientRepository.findAll();
     }
+
     @GetMapping("/formPatients")
-    public String formPatient(Model model){
-        model.addAttribute("patient",new Patient());
+    public String formPatient(Model model) {
+        model.addAttribute("patient", new Patient());
         return "formPatients";
     }
+
     @PostMapping(path = "/save")
-    public String save(Model model, @Valid Patient patient, BindingResult bindingResult, @RequestParam(defaultValue = "0") int page,@RequestParam(defaultValue = "") String Keyword){
-        if(bindingResult.hasErrors()) return "formPatients";
+    public String save(Model model, @Valid Patient patient, BindingResult bindingResult, @RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "") String Keyword) {
+        if (bindingResult.hasErrors()) return "formPatients";
         patientRepository.save(patient);
-        return "redirect:/index?page="+page+"&Keyword="+Keyword;
+        return "redirect:/index?page=" + page + "&Keyword=" + Keyword;
     }
+
     @GetMapping("/editPatient")
-    public String formPatient(Model model, Long id,String Keyword, int page){
-        Patient patient=patientRepository.findById(id).orElse(null);
-        if(patient==null) throw new RuntimeException("Patient introuvable");
-        model.addAttribute("patient",patient);
-        model.addAttribute("page",page);
-        model.addAttribute("Keyword",Keyword);
+    public String editPatient(@RequestParam(name = "id") Long id,Model model,String keyword,int page) {
+        Patient patient = patientRepository.findById(id).orElse(null);
+        if (patient == null) throw new RuntimeException("Patient introuvable");
+        model.addAttribute("patient", patient);
+        model.addAttribute("page", page);
+        model.addAttribute("keyword", keyword);
         return "editPatient";
     }
+
 }

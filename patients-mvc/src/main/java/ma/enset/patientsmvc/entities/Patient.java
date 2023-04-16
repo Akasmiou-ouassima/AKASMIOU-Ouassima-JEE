@@ -12,6 +12,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 @Entity
 @Data @AllArgsConstructor @NoArgsConstructor
+//le constructeur sans paramétres il est générer pad défaut par l'annotation DATA
 public class Patient {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
