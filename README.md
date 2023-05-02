@@ -6,7 +6,14 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ## ➤ 📖 Les comptes rendus du module Architecture JEE et Middlewares
+* [➤ Compte rendu Inversion de contrôle et Injection des dépendances]()
+* [➤ Compte rendu Bases des systèmes distribués - Programmation Résaux]()
+* [➤ Compte rendu JPA Hibernate Spring Data]()
+* [➤ Compte rendu Spring MVC JPA Hibernate Spring Data Thymeleaf]()
+* [➤ Compte rendu Web services SOAP WSDL UDDI]()
+* [➤ Compte rendu Mise en oeuvre d'un micro-service Rest]()
+* [➤ Rapport Contrôle JEE et Middlewaret]()
+* [➤ Compte rendu Projet JEE  Spring Angular - Digital Banking]()
 
-* [➤ Compte rendu Mise en oeuvre d'un micro-service Rest](https://github.com/Akasmiou-ouassima/AKASMIOU-Ouassima-JEE/blob/master/bank-account-service/Compte_Rendu_First_MicroServices_Rest_Connector.pdf)
 
 
