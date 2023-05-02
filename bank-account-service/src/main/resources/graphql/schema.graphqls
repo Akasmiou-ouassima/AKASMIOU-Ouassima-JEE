@@ -5,7 +5,7 @@ type Query{
 }
 type Mutation{
     addAccount(bankAccount : BankAccountDTO) : BankAccount
-    apdateAccount(id : String, bankAccount : BankAccountDTO) : BankAccount
+    updateAccount(id : String, bankAccount : BankAccountDTO) : BankAccount
     deleteAccount(id : String) : Boolean
 }
 type Customer{
