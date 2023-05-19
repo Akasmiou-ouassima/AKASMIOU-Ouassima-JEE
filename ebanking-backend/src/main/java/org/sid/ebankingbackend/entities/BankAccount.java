@@ -20,7 +20,6 @@ public abstract class BankAccount {
     private double balance;
     private Date createdAt;
     private AccountStatus status;
-    private String description;
     @ManyToOne
     private Customer customer;
     @OneToMany(mappedBy = "bankAccount",fetch = FetchType.EAGER)
