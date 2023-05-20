@@ -125,7 +125,7 @@ public class BankAccountServiceImpl implements BankAccountService {
                 new BankAccountNotFoundException("Bank account not found")
         );
         AccountOperation accountOperation = new AccountOperation();
-        accountOperation.setType(OperationType.DEBIT);
+        accountOperation.setType(OperationType.CREDIT);
         accountOperation.setAmount(amount);
         accountOperation.setDescription(description);
         accountOperation.setBankAccount(bankAccount);
@@ -169,7 +169,6 @@ public class BankAccountServiceImpl implements BankAccountService {
         Customer savedCustomer = customerRepository.save(customer);
         return dtoMapper.fromCustomer(savedCustomer);
     }
-
     @Override
     public void deleteCustomer(Long customerId) {
         customerRepository.deleteById(customerId);
@@ -181,7 +180,6 @@ public class BankAccountServiceImpl implements BankAccountService {
         List<AccountOperationDTO> collect = accountOperations.stream().map(accountOperation -> dtoMapper.fromAccountOperation(accountOperation)).collect(Collectors.toList());
         return collect;
     }
-
     @Override
     public AccountHistoryDTO getAccountHistory(String accountId, int page, int size) throws BankAccountNotFoundException {
         BankAccount bankAccount = bankAccountRepository.findById(accountId).orElse(null);
@@ -197,6 +195,5 @@ public class BankAccountServiceImpl implements BankAccountService {
         accountHistoryDTO.setPageSize(size);
         accountHistoryDTO.setTotalPages(accountOperations.getTotalPages());
         return accountHistoryDTO;
-
     }
 }
