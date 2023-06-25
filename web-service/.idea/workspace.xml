@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0dad8b9-850d-4b43-a08a-f0760ccf00e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../UserRole/src/main/java/ma/enset/UserRole/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UserRole/src/main/java/ma/enset/UserRole/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bank-account-service/src/main/java/org/sid/bankaccountservice/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bank-account-service/src/main/java/org/sid/bankaccountservice/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital/src/main/java/ma/enset/hospital/HospitalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hospital/src/main/java/ma/enset/hospital/HospitalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital/src/main/java/ma/enset/hospital/entities/RendezVous.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hospital/src/main/java/ma/enset/hospital/entities/RendezVous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital/src/main/java/ma/enset/hospital/service/HospitalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hospital/src/main/java/ma/enset/hospital/service/HospitalServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sid/ServerJWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sid/ServerJWs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sid/ws/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sid/ws/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sid/ServerWs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sid/ws/Compte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sid/ws/Compte.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ouasi/OneDrive/Desktop/dossier/AKASMIOU-Ouassima-JEE/client441",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ouasi/OneDrive/Desktop/dossier/AKASMIOU-Ouassima-JEE/client441&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +67,7 @@
       <workItem from="1681126757838" duration="2651000" />
       <workItem from="1681515622720" duration="6108000" />
       <workItem from="1681569271868" duration="6100000" />
+      <workItem from="1684712329695" duration="2096000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,58 @@
+<div class="container mt-3">
+  <div class="card col-md-6 offset-3">
+    <div class="card-header">New Bank Account</div>
+    <div *ngIf="errorMessage" class="text-capitalize text-bg-danger text-center">
+      {{ errorMessage }}
+    </div>
+    <div class="card-body">
+      <div *ngIf="newAccountFormGroup">
+        <form [formGroup]="newAccountFormGroup" (ngSubmit)="handleSaveNewAccount()">
+          <div class="row">
+            <div class="mb-2">Please choose an account type : </div>
+            <div class="mb-3 col-md-6">
+              <input type="radio" formControlName="type" class="form-check-input mx-1" value="CurrentAccount">
+              <label class="form-check-label">Current Account</label>
+            </div>
+            <div class="mb-3 col-md-6">
+              <input type="radio" formControlName="type" class="form-check-input mx-1" value="SavingAccount">
+              <label class="form-check-label"> Saving Account</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Balance :</label>
+            <input type="number" formControlName="balance" class="form-control">
+            <span class="text-danger"
+                  *ngIf="newAccountFormGroup.controls['balance']?.touched
+                  && newAccountFormGroup.controls['balance']?.errors
+                   && newAccountFormGroup.controls['balance']?.errors!['required']">
+              Balance Is Required !
+            </span>
+          </div>
+          <!--*ngIf="accountType == 'CurrentAccount'"-->
+          <div class="mb-3" *ngIf="newAccountFormGroup.value.type == 'CurrentAccount'">
+            <label class="form-label">OverDraft :</label>
+            <input type="number" formControlName="overDraft" class="form-control">
+            <span class="text-danger"
+                  *ngIf="newAccountFormGroup.controls['overDraft']?.touched
+                  && newAccountFormGroup.controls['overDraft']?.errors
+                   && newAccountFormGroup.controls['overDraft']?.errors!['required']">
+              Over Draft Is Required
+            </span>
+          </div>
+          <div class="mb-3" *ngIf="newAccountFormGroup.value.type == 'SavingAccount'">
+            <label class="form-label">Interest Rate :</label>
+            <input type="number" formControlName="interestRate" class="form-control">
+            <span class="text-danger"
+                  *ngIf="newAccountFormGroup.controls['interestRate']?.touched
+                  && newAccountFormGroup.controls['interestRate']?.errors
+                   && newAccountFormGroup.controls['interestRate']?.errors!['required']">
+              Over Draft Is Required
+            </span>
+          </div>
+          <!--[disabled]="!newAccountFormGroup.valid"-->
+          <button class="btn btn-primary">Save New Bank Account</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+<!--<div class="container text-center text-primary fs-3" >
+  <div *ngIf="bankAccounts$">Bank Accounts infos récupérées: {{bankAccounts$ | json}}</div>
+</div>-->
+
+<div class="container mt-3">
+  <ng-container *ngIf="bankAccounts$ | async as accountsByCustomer; else failureOrLoading">
+    <div class="card">
+      <div class="card-header">All Bank Accounts</div>
+      <div class="card-body">
+        <table class="table table-hover">
+          <thead>
+          <tr>
+            <th>Type</th>
+            <th>Account ID</th>
+            <th class="text-end">Balance</th>
+            <th>Create Date</th>
+            <th>Status</th>
+            <th>Customer ID</th>
+            <th>OverDraft</th>
+            <th>Interest Rate</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let account of bankAccounts$ | async">
+            <td>{{account.type}}</td>
+            <td>{{account.id}}</td>
+            <td class="text-end">{{account.balance |  number : '1.2-2'}}</td>
+            <td>{{account.createdDate | date: 'dd-MM-yyyy'}}</td>
+            <td>{{account.status}}</td>
+            <!--(click)="handleCustomerPageFromBankAccounts(account.customerDTO.id.toString())"-->
+            <td class="text-center" (click)="handleCustomerPageFromBankAccounts(account.customerDTO)">
+             <button class="btn btn-primary">{{account.customerDTO.id}}</button></td>
+            <td class="text-end">{{account.overDraft}}</td>
+            <td class="text-end">{{account.interestRate}}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--<div class="text-end text-capitalize text-primary fs-3"><a routerLink="/customers/:id">Back to Customer Page</a></div>-->
+   <!-- <div class="text-end text-capitalize text-primary fs-3"><a routerLink="handleCustomerPage(customerId)">Back to Customer Page</a></div>-->
+  </ng-container>
+
+  <ng-template #failureOrLoading>
+    <ng-container *ngIf="errorMessage; else Loading">
+      <div class="text-center text-bg-danger text-capitalize">
+        {{errorMessage}}
+      </div>
+    </ng-container>
+    <ng-template #Loading>
+      <div class="text-center text-bg-primary text-capitalize fs-3">
+        Accounts are loading.....
+      </div>
+    </ng-template>
+  </ng-template>
+</div>

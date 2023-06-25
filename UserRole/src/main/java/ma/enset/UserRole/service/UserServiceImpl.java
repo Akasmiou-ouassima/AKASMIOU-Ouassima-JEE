@@ -16,15 +16,16 @@ import java.util.UUID;
 @AllArgsConstructor
 
 public class UserServiceImpl implements UserService {
-    //@Autowired
+    @Autowired
     private UserRepository userRepository;
+    @Autowired
     private RoleRepository roleRepository;
 
 
     @Override
     public User addNewUser(User user) {
         user.setUserId(UUID.randomUUID().toString());
-        return userRepository.save(user);
+       return userRepository.save(user);
     }
 
     @Override

@@ -20,7 +20,7 @@ public class HospitalApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HospitalApplication.class, args);
 	}
-    @Bean
+
 	//chaque méthode contient l'annotation bean c'est une méthode qui va exécuter au moment de démarrage
 	/*CommandLineRunner start(PatientRepository patientRepository, MedecinRepository medecinRepository, RendezVousRepository rendezVousRepository, ConsultationRepository consultationRepository){
       return args -> {
@@ -58,6 +58,7 @@ public class HospitalApplication {
 		  consultationRepository.save(consultation);
 
 	  };*/
+	@Bean
 	CommandLineRunner start(IHospitalService hospitalService, PatientRepository patientRepository,RendezVousRepository rendezVousRepository,MedecinRepository medecinRepository){
 		return args -> {
 			Stream.of("Mohamed","Hassan","Najat","Ouassima").forEach(name ->{

@@ -46,7 +46,7 @@ public class HospitalServiceImpl implements IHospitalService {
 
     @Override
     public RendezVous saveRDV(RendezVous rendezVous) {
-        rendezVous.setId(UUID.randomUUID().toString());
+       // rendezVous.setId(UUID.randomUUID().toString());
         return rendezVousRepository.save(rendezVous);
     }
 

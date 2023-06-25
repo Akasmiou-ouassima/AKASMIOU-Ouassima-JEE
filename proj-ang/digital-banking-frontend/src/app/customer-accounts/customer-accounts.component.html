@@ -1,0 +1,55 @@
+<!--<div class="container text-center text-primary fs-3" >
+  <div>CustomerId récupéré: {{customerId}}</div>
+  <div>Customer infos récupérées: {{customer | json}}</div>
+</div>-->
+
+<div class="container mt-3">
+  <ng-container *ngIf="accounts$ | async as accountsByCustomer; else failureOrLoading">
+    <div class="card">
+      <div class="card-header">All Accounts</div>
+      <div class="card-body">
+        <table class="table table-hover">
+          <thead>
+          <tr>
+            <th>Type</th>
+            <th>Account ID</th>
+            <th class="text-end">Balance</th>
+            <th>Create Date</th>
+            <th>Status</th>
+            <th>Customer ID</th>
+            <th>OverDraft</th>
+            <th>Interest Rate</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let account of accounts$ | async">
+            <td>{{account.type}}</td>
+            <td>{{account.id}}</td>
+            <td class="text-end">{{account.balance |  number : '1.2-2'}}</td>
+            <td>{{account.createdDate | date: 'dd-MM-yyyy'}}</td>
+            <td>{{account.status}}</td>
+            <td class="text-center">{{account.customerDTO.id | json}}</td>
+            <td class="text-end">{{account.overDraft}}</td>
+            <td class="text-end">{{account.interestRate}}</td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+    </div>
+<!--<div class="text-end text-capitalize text-primary fs-3"><a routerLink="/customers/:id">Back to Customer Page</a></div>-->
+    <div class="text-end text-capitalize text-primary fs-3"><a (click)="handleCustomerPage(customerId)">Back to Customer Page</a></div>
+  </ng-container>
+
+  <ng-template #failureOrLoading>
+    <ng-container *ngIf="errorMessage; else Loading">
+      <div class="text-center text-bg-danger">
+        {{errorMessage}}
+      </div>
+    </ng-container>
+      <ng-template #Loading>
+        <div class="text-center text-bg-primary text-capitalize fs-3">
+          Accounts are loading.....
+        </div>
+      </ng-template>
+  </ng-template>
+</div>
