@@ -12,8 +12,8 @@
 * [➤ Compte rendu Spring MVC JPA Hibernate Spring Data Thymeleaf]()
 * [➤ Compte rendu Web services SOAP WSDL UDDI]()
 * [➤ Compte rendu Mise en oeuvre d'un micro-service Rest](https://github.com/Akasmiou-ouassima/AKASMIOU-Ouassima-JEE/blob/master/bank-account-service/Compte_Rendu_First_MicroServices.pdf)
-* [➤ Rapport Contrôle JEE et Middlewaret]()
-* [➤ Compte rendu Projet JEE  Spring Angular - Digital Banking]()
+* [➤ Rapport Contrôle JEE et Middlewaret](https://github.com/Akasmiou-ouassima/Subscription_Management_System/blob/master/Rapport_Contr%C3%B4le.pdf)
+
 
 
 
