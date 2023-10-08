@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="template.html"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Etudiants</title>
+</head>
+<body>
+  <div layout:fragment="content">
+    <div class="p-3">
+      <div class="card">
+        <div class="card-header" style="color: deepskyblue;font-family: Bahnschrift;font-size: 30px;mso-font-info: monospace;font-weight: bolder;">Liste des etudiants</div>
+        <div class="card-body">
+          <form method="get" th:href="@{/user/index}">
+            <ul class="nav nav-pills">
+              <li>
+                <label class="form-label" style="font-weight: bolder;color: black;">Keyword : &nbsp;</label>
+              </li>
+              <li>
+                <input type="text" class="form-control" name="keyword">
+              </li>
+              <li>
+                <button class="btn btn-info">
+                  <i class="bi bi-search"></i>
+                </button>
+              </li>
+            </ul>
+          </form>
+          <table class="table">
+            <thead>
+            <tr style="color: #00a6ff;font-family: Bahnschrift;font-weight: bolder;font-size: large;">
+              <th>ID</th><th>Nom</th><th>Prénom</th><th>Date de Naissance</th><th>Email</th><th>Genre</th><th>En règle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="e:${listEtudiants}">
+              <td th:text="${e.id}"></td>
+              <td th:text="${e.nom}"></td>
+              <td th:text="${e.prenom}"></td>
+              <td th:text="${e.dateNaissance}"></td>
+              <td th:text="${e.email}"></td>
+              <td th:text="${e.genre}"></td>
+              <td th:text="${e.enRegle}"></td>
+              <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
+                <a onclick="return confirm('Etes vous sûre?')" class="btn btn-danger"
+                   th:href="@{/admin/deleteEtudiant(id=${e.id}, keyword=${keyword}, page=${currentPage})}">
+                  <i class="bi bi-trash"></i>
+                </a>
+              </td>
+              <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
+                <a  class="btn btn-primary"
+                   th:href="@{/admin/editEtudiant(id=${e.id})}">
+                  <i class="bi bi-pencil"></i>
+                </a>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+          <ul class="nav nav-pills">
+            <li th:each="page,status:${pages}">
+              <a
+                      th:class="${status.index==currentPage?'btn btn-info ms-1':'btn btn-outline-info ms-1'}"
+                      th:href="@{/user/index(page=${status.index}, keyword=${keyword})}"
+                      th:text="${status.index}">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
